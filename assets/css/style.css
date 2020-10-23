@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 18px;
+    line-height: 27px;
+    background-color: #ccc;
+  }
+
+    body {
+        background-color: azure;
+    }
+
+#aboutme {
+    padding: 25px;
+    border-style: solid;
+    background-color: lightslategrey;
+    float: left;
+    height: 500px;
+    width: 700px;
+}
+
+p {
+    color: ghostwhite;
+overflow-wrap: break-word;}
+
+@media
