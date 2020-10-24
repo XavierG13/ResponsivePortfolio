@@ -54,3 +54,20 @@ img.resize {
 .img-border {
         border: 5px solid #555;
 }
+
+#contact {
+    padding: 20px;
+    border-style: groove;
+    border-color: #333;
+    background-color: lightslategrey;
+    color: gainsboro;
+}
+
+footer {
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+    border-style: groove;
+    border-color: #333;
+    background-color: lightslategray;
+}
