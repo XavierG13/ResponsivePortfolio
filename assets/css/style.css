@@ -11,23 +11,39 @@
 }
 
 #navbar {
-    margin: auto;
     background-color: aliceblue;
+    margin-bottom: 15px;
 }
 
 .navbar-brand {
+    padding: 10px;
+    border-style: groove;
+    border-color: #333;
     background-color: lightslategray;
+    color: ;
 }
 
 #card {
-    margin: 10px;
     padding: 20px;
     border-style: groove;
-    border-color: #333;
+    border-color;
     background-color: lightslategrey;
     color: gainsboro;
 }
 
 .aboutme {
+    font-weight: 100;
+    border-style: groove;
+    border-color: #333;
+    font-size: larger;
+    margin-left: 18px;
+}
 
+hr {
+    color: aliceblue;
+}
+
+#img {
+    float: left;
+    padding: 10px;
 }
