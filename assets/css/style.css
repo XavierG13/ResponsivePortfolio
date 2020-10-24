@@ -43,7 +43,17 @@ hr {
     color: aliceblue;
 }
 
+.img-border{
+    border-style: groove;
+    border-color: #333;
+}
+
 #img {
     float: left;
     padding: 10px;
 }
+
+img.resize {
+    max-width:300px;
+    max-height:300px;
+  }
