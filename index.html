@@ -8,6 +8,7 @@
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -18,60 +19,68 @@
 
 </head>
 
+<header>
 
-<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="col-lg-6 navbar-brand mx-auto" href="#">Xavier Guzman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-        <div id="nav" class="container">
-
-            <p class="font-italic" class="font-weight-bolder">
-                <a class="navbar-brand" href="#">Xavier Guzman</a>
-            </p>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse col-lg-4 mx-auto" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#index.html">About Me <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
         </div>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="#index\contact.html">Contact</a>
-                <a class="nav-link" href="#index\portfolio.html">Portfolio</a>
-                <a class="nav-link active" href="#index\index.html">About <span class="sr-only">(current)</span></a>
-            </div>
-        </div>
-
     </nav>
 
-    <main>
-
-        <div id="aboutme" class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            About Me
-                        </div>
-                    </div>
-                </div>
+    <div class="container" id="card">
+        <div class="row justify-content-start">
+            <div class="col-lg-4">
+                <p class="aboutme">
+                    About Me
+                </p>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-lg-4">
-                    <img class="img img-thumbnail"
-                        src="https://www.gannett-cdn.com/presto/2020/08/31/USAT/57ea2bda-0aab-485b-8046-86c7fa02f072-Dumbbells.png?width=580&height=326&fit=bounds&auto=webp">
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <p>
-                        I am currently a Personal Trainer who focuses on Strength and Condtioning. Their is great
-                        fullfilment in knowing that the things I teach someone is not only benefitting them physically,
-                        but also emotionally as well. A majority of the sessions I host are straight out of my garage
-                        where I utilize a squat rack, kettbells, dumbbells, and a variety of other pieces of equipment.
-                    </p>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJniaiPMU3Z7XSOtLBTRwKYZpb45b0RWM0yw&usqp=CAU"
+                    alt="WeightSet">
             </div>
 
-    </main>
+            <div class="col">
+                <p>
+
+                    One of the greatest things I have accomplished so far is being able to be a part of someone's
+                    journey. I
+                    have been teaching others Strength and Conditioning for about two years now. It could be the
+                    beginning
+                    of thier new lifestyle or even just picking my brain for advice, regardless I feel a sense of
+                    fullfillment.
+
+                </p>
+
+                <p>
+                    The majority of my training takes place out of my garage. In there I have your basic squat rack,
+                    dumbbells, kettlebells, jump ropes, etc... We go over proper warm up to start of the workouts with
+                    your muscle groups ready to go! Once finished with the warm up, we of course start the routine with
+                    strength training. Normally we end the sessions with a cardio circuit but to keep things interesting
+                    occassionally the routine does get changed around.
+                </p>
+            </div>
+
+        </div>
+
+</header>
 
 </body>
 
