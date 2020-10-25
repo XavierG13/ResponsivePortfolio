@@ -4,7 +4,7 @@
     padding: 0;
   }
   
-  body {
+body {
     background-color: #eee;
     font-family: 'Trispace', sans-serif;
     font-size: 15px;
@@ -20,7 +20,6 @@
     border-style: groove;
     border-color: #333;
     background-color: lightslategray;
-    color: ;
 }
 
 #card {
@@ -32,6 +31,7 @@
 }
 
 .aboutme {
+    padding: 10px;
     font-weight: 100;
     border-style: groove;
     border-color: #333;
@@ -63,6 +63,7 @@ img.resize {
     color: gainsboro;
 }
 
+/* css to have to footer stick to the page as you scroll up and down  */
 footer {
     position: fixed;
     left: 0;
