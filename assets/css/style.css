@@ -44,15 +44,18 @@ hr {
 }
 
 img {
+    position: relative;
     border: 3px solid #333;
-}
-
-img.resize {
-    max-height:231px;
+    height: 300px;
+    width: 300px;
 }
 
 .img-border {
         border: 5px solid #555;
+}
+
+#portfolio {
+    text-align: center;
 }
 
 #contact {
@@ -61,6 +64,10 @@ img.resize {
     border-color: #333;
     background-color: lightslategrey;
     color: gainsboro;
+}
+
+a {
+    margin: inherit;
 }
 
 /* css to have to footer stick to the page as you scroll up and down  */

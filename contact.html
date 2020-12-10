@@ -8,13 +8,13 @@
     <title>Responsive Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets\css\style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 
 </head>
 
@@ -46,7 +46,7 @@
 
     </header>
 
-    <div id="contact" class="container">
+    <div id="contact align-content-center" class="container">
         <div class="row justify-content-start">
             <div class="justify-content-start">
                 <header class="aboutme">
@@ -60,25 +60,31 @@
         <div class="row">
             <form action="/action_page.php">
                 <div class="col">
-                    <label for="flname">Name</label>
-                    <input type="text" id="flname" name="firstlastname" placeholder="Your name..">
-                </div>
-                <div class="col">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="emailform" placeholder="Your email here..">
-                </div>
-                <div class="col">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Add message here.."></textarea>
-
-                    <input type="submit" value="Submit">
+                    <span class="input-group-text">Name: 
+                        <input type="text" id="flname" name="firstlastname" placeholder="Your name..">
+                    </span>
                 </div>
             </form>
         </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="emailform" placeholder="Your email here..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Add message here.."></textarea>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
+    </div>
     </div>
 
     <footer>
-        @ Copyright
+        @ Copyright 2020 Xavier Guzman
     </footer>
 
 </body>
