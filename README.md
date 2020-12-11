@@ -2,13 +2,14 @@
 
 # About me
 
-* In this section you will learn a portion of what I do for a living. It consists of mentoring others when it comes to phsycial fitness. I used the grid system in order to break up the card to make it flow through the page. 
+* In this section you will learn a portion of what I do for a living. It consists of mentoring others when it comes to physical fitness. I used the grid system in order to break up the card to make it flow through the page. I am currently a web developer in training.
 
 # Portfolio
 
-* Here is where I would put my projects... If I had any!!! 
-
-Just kidding this will be filled soon and will have bigger and better projects added. 
+* A few of the projects I am working on and polishing up.
+[Weather Dashboard](https://xavierg13.github.io/Weather-Dashboard/)
+[Fido For You](https://xavierg13.github.io/fidoforyou/) 
+[Work Day Schedular](https://xavierg13.github.io/Work-Day-Scheduler/)
 
 # Contact Me
 
