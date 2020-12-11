@@ -57,30 +57,33 @@
 
         <hr>
 
-        <div class="row">
-            <form action="/action_page.php">
-                <div class="col">
-                    <span class="input-group-text">Name: 
-                        <input type="text" id="flname" name="firstlastname" placeholder="Your name..">
-                    </span>
-                </div>
-            </form>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="emailform" placeholder="Your email here..">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Add message here.."></textarea>
-                <input type="submit" value="Submit">
-            </div>
-        </div>
+        <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <address id="email-address">
+                <button type="submit"><a href="mailto:guzmanxavi112@gmail.com">Submit</a></button>
+            </address>
         </form>
-    </div>
+
+
+        <div id="social" class="module">
+            <h2>Connect with Me</h2>
+            <a href="https://github.com/XavierG13" target="_blank"><img src="assets/images/github.png"></a>
+            <a href="https://www.linkedin.com/in/xavierguzman1993/" target="_blank"><img
+                    src="assets/images/linkedin.png"></a>
+        </div>
     </div>
 
     <footer>
